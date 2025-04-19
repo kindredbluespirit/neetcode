@@ -1,0 +1,17 @@
+get frequency map of each string
+
+one group for each freq map
+
+---------
+
+convert the freq map (array of size 26)
+
+only mutable data are hashable (can be used as indices)
+
+turn array into tuple to be used as index
+
+a = [1, 2, 3, 4]
+c = (1, 2, 3, 4)
+
+a = list(c)
+c = tuple(a)

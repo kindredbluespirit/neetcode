@@ -1,0 +1,19 @@
+minimum num of replacements in any array
+= size - freq of most frequent element
+
+use sliding window
+get largest subarray with k replacements
+
+size up until min = k
+if the next size up increases min to k+1, 
+then size down until it gets back to k.
+
+repeat until the end is reached.
+
+O(n) time, O(m) space for the freq map with m elements
+
+---------
+
+I thought it was a greedy problem because of
+hint 2 (https://neetcode.io/problems/longest-repeating-substring-with-replacement)
+but it was a sliding window problem instead.

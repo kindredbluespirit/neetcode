@@ -1,0 +1,10 @@
+sort the array in-place
+O(n log n) time, O(1) space
+
+given n
+
+for each element in the sorted array
+    consider the subarray without the element
+    look for sum n - element (similar to the sum-ii problem)
+
+O(n * n) time, O(1) space

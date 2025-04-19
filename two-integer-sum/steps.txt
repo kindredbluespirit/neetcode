@@ -1,0 +1,14 @@
+Assume:
+Exactly one pair of indices available.
+
+dict or hashmap - parsed
+
+given n
+
+iterate through list
+    if value and n - value in parsed
+        get their indices
+        return
+
+    add to parsed: (value, index)
+    add to needed: n - value

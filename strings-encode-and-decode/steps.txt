@@ -1,0 +1,3 @@
+prefix each string with length and a delimiter
+
+smile -> 5#smile or 5%smile

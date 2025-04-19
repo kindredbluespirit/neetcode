@@ -1,0 +1,17 @@
+default, nC2 combinations
+iterate and maximize
+O(n^2) time, O(1) space
+
+---------
+
+total water:
+(d2 - d1) * min(h1, h2)
+
+forward + reverse iterator pair again
+move the iterator that points to the smaller bar inwards
+
+min(h1, h2) goes up while (d2 - d1) goes down
+
+there's an optimal balance in between
+
+O(n) time, O(1) space

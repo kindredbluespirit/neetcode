@@ -1,0 +1,24 @@
+find full product
+
+output[i] = product / num[i]
+
+--------
+
+what if num[i] is zero
+
+
+if more than one zero in the array
+return all zeros
+
+if only one zero
+find full product without the zeros
+output[i] = 0 if num[i] != 0
+else output[i] = product
+
+if no zeros
+continue as before
+
+-------------
+
+or use prefix and suffix products
+output[i] = prefix[i] * suffix[i]

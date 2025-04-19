@@ -1,0 +1,14 @@
+map
+ends-with -> total length
+
+2,3,4,5,6
+4 -> 5
+
+if map has (19, 5)
+and you see 20
+if no other 20: add (20, 6), remove (19, 5)
+else if (20, 3): remove (20, 3)
+else if (20, 9): remove (20, 6)
+
+takes one pass through the array
+O(n) time, O(n) space for map/hashmap

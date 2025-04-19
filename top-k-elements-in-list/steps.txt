@@ -1,0 +1,15 @@
+nums, k
+
+O(n) time, O(n) space
+
+get frequencies
+
+sort based on frequencies
+
+bucket sort O(n)
+merge sort O(nlogn)
+
+------------
+
+frequencies: map num to freq
+bucket: map freq to list/set of nums

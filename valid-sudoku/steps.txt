@@ -1,0 +1,8 @@
+Note/Assumption: A board does not need to be full or be solvable to be valid.
+
+check for duplicates
+use sets (aka hashsets)
+
+9 sets for rows
+9 sets for columns
+9 sets for squares

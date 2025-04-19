@@ -1,0 +1,17 @@
+forward and backward iterators
+
+keep track of highest point so far and store it in the index
+f[pi] = (pf, hf)
+b[pi] = (pb, hb)
+
+two passes - O(n) time, O(n) space
+
+iterate forwards again
+for each point,
+    consider pf, pb
+    rectangle area = (pb - pf) * min(hf, hb)
+    water area = rectangle area - block area
+
+    skip to pb (other points between pf and pb can be ignored)
+
+one pass - O(n) time

@@ -1,0 +1,9 @@
+Run a fixed length (length of s1) sliding window through s2.
+
+Maintain freq maps for s1 and ss2
+
+Max size of these freq maps is 26, which is O(1) space.
+
+Return true if the maps match.
+
+O(n) time like in a regular sliding window problem.

@@ -14,6 +14,6 @@ O(n) time, O(m) space for the freq map with m elements
 
 ---------
 
-I thought it was a greedy problem because of
+I initially thought it was a greedy problem because of
 hint 2 (https://neetcode.io/problems/longest-repeating-substring-with-replacement)
 but it was a sliding window problem instead.

@@ -1,0 +1,4 @@
+compare roots, left and right subtrees
+using recursion
+
+corner case: root is null

@@ -1,0 +1,12 @@
+arrays A and B with lA < lB
+
+half = (lA+lB)/2
+
+elements to the left of the median consist of 
+first x elements from A
+first half-x elements from B
+
+criterion:
+A[x], B[half-x] <= A[x+1], B[half-x+1]
+
+binary search bounds on A until this is satisfied

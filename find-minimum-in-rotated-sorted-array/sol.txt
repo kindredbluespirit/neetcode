@@ -1,0 +1,13 @@
+binary search in O(log n) time
+
+keep note of bounds to left and right
+
+while true
+    if left < right,
+        return left
+    elif mean < right, (lowest b/w left and mean)
+        then right = mean
+    elif mean > left, (lowest b/w mean and right)
+        then left = mean
+
+continue until index(left)+1 = index(right)

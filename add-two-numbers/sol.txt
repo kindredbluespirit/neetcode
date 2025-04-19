@@ -1,0 +1,6 @@
+traverse along, add numbers and increment pointers
+
+maintain a carry value which is 1 or 0
+
+if one of the lists end, append rest of the other list to the answer
+after adding the carry value

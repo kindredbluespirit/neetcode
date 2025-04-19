@@ -1,0 +1,3 @@
+simple binary search.
+
+Flatten 2d matrix into 1d array

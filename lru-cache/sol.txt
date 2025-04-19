@@ -1,0 +1,10 @@
+lrucache contains
+a value capacity O(1)
+a doubly linked list O(n) from LRU to MRU
+a hashmap to map nums to node pointers O(n)
+
+get:
+remove and insert at end
+
+put:
+put at end, if full, remove LRU element

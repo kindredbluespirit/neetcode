@@ -1,0 +1,8 @@
+learnt about fast and slow pointers
+
+if fast pointer reaches null, no loop
+
+if fast pointer eventually reaches slow pointer, loop exists
+
+fast pointer - moves two steps
+slow pointer - moves one step

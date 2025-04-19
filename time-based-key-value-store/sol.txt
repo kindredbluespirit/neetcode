@@ -1,0 +1,5 @@
+use a regular dict (aka hashmap)
+
+{ alice : [(happy, 1), (sad, 2), ...] }
+
+given a key, binary search with bounds until timestamp is reached

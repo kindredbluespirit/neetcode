@@ -1,0 +1,6 @@
+validate a tree along with max and min bounds
+
+left child - max bound = root
+right child - min bound = root
+
+Will DFS with (node, max bound, min bound) work?

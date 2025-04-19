@@ -1,0 +1,3 @@
+traverse list to get length l
+
+traverse again to get to the (l-n)th node

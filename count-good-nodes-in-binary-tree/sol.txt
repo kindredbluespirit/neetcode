@@ -1,0 +1,10 @@
+DFS?
+
+Maintain a stack for the DFS, using (num, max) pairs - O(h) space
+
+if num > max, add num to good node list
+    and set global max to num
+
+when popping elements from the stack, update global max using 
+the top unpopped tuple in the stack
+

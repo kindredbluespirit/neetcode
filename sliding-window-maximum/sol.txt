@@ -1,0 +1,21 @@
+max heap retrieves the max element in O(1) time,
+
+heap contains (num, pos) tuples, compared using num
+
+add the current element to the heap as the window moves
+
+as the sliding window moves, 
+while pos(max element) < start,
+remove it
+
+O(log n) time to add/remove element
+O(n) space for the max heap
+max heap can get bigger than the sliding window
+
+O(n-k) = O(n) space for the array holding maxima
+
+--------
+
+python import heapq for minheap
+
+invert sign for maxheap ops

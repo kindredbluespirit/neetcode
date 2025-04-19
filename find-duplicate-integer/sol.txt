@@ -1,0 +1,24 @@
+modify array in-place
+
+traverse along the array
+
+if you encounter num,
+then arr[|num|] *= 1
+
+if it's already negative, then num is the answer.
+
+---------
+
+bit mask
+
+for each bit position from 1 to 32
+if the numbers in the array of length n+1 contain more bits in this position
+than in the collective numbers 1, 2, 3, ..., n, the extra number has a bit here.
+
+collect all theses bits and you get the number.
+
+----------
+
+using fast and slow pointers, 
+maybe we'll skip it for now
+as I don't have a good reference

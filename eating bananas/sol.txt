@@ -1,0 +1,23 @@
+add all the elements up
+
+keep track of the bounds of k
+kl and kh
+
+start with
+kh = max(array)
+kl = 0
+then each stack takes 1 hour
+
+mean = (kh + kl) / 2
+while not converged
+    if mean is too fast
+        set max to mean
+    elif mean is too slow
+        set min to mean
+
+k = final mean 
+
+calculating too fast/slow takes O(n) time
+while loop takes O(logm) time
+
+total - O(nlogm) time, O(1) space for kh, kl, mean

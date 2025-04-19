@@ -1,0 +1,12 @@
+traverse once, get length l
+maybe not needed here
+
+traverse to length k in O(k) time
+
+split into two list reversal problems
+O(k) + O(l-k) = O(l) time
+
+concatenate the two reversed lists
+in O(k) time to parse to the end of the first list
+
+O(length) time and O(1) space

@@ -1,0 +1,6 @@
+iterate through the root tree
+if a value matches the subroot,
+perform the equivalence check.
+
+Can perform the check using
+DFS with a stack.

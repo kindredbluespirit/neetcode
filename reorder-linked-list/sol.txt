@@ -1,0 +1,5 @@
+split list into two halves.
+
+Reverse second half in O(n) time
+
+Merge the two halves in O(n) time

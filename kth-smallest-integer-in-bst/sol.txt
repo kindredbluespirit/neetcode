@@ -1,0 +1,5 @@
+DFS on a BST
+
+The elements get popped in increasing order
+
+kth pop = kth smallest element

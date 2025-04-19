@@ -1,0 +1,18 @@
+freq map can be an array of size 26 * 2 (uppercase and lowercase)
+or use hash map as per hint 2
+
+sliding window
+grow = move the right end
+shrink = move the left end
+
+grow the sliding window on s until the freq maps match
+for the sliding window and t
+
+O(1) for lookups because there are atmost 26*2 unique characters
+
+then shrink the sliding window until it just fits.
+
+For each endpoint in the sliding window, we get the corresponding
+start and length of sliding window/substring = end - start
+
+If the end of s is reached without satisfying freqmap, return ""

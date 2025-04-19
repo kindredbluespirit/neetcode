@@ -1,0 +1,7 @@
+start with an empty list l
+
+for each of the k lists in the input,
+merge l with the list in O(n) time
+
+total time - O(nk)
+total space - O(1), because the next pointers are updated in-place

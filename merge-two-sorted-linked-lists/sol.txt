@@ -1,0 +1,5 @@
+maintain two pointers
+
+Since it is O(1) space, I guess we update the next pointers in-place.
+
+traverse the two linked lists.

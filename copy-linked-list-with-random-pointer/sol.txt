@@ -1,0 +1,20 @@
+traverse and maintain
+multiple hashmaps maybe?
+
+index -> original
+original -> index
+index -> new
+new -> index
+
+or even reduce it to
+original -> new
+new -> original
+so you get a bijection in O(n) space
+
+first traversal
+    value and next
+    original -> index -> new
+
+second traversal
+    random
+    random -> original -> index -> new

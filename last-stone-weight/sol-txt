@@ -1,0 +1,7 @@
+max heap
+
+heapify array
+
+extract the largest two numbers x, y
+insert |x-y|
+keep going until the last stone

@@ -1,0 +1,15 @@
+m is the number of "add" ops
+kth largest element
+
+some sort of binary tree structure?
+
+min heap with max capacity k?
+
+------
+
+oh yes it's the min heap!!
+
+Can we use a priority queue?
+
+Technically a priority queue can be
+implemented using min/max heap

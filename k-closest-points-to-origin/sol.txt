@@ -1,0 +1,4 @@
+min-heap with a custom comparision operator
+
+in python, you can make minheap comparisions by
+defining __lt__

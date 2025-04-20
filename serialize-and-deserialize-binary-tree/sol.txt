@@ -1,0 +1,16 @@
+DFS to get the max height of the tree h
+
+construct array of length ( 1 + 2 + 2^2 + ... + 2^h-1 ) = 2^h - 1
+
+BFS to fill the array, also need to keep track of the position.
+
+If the current node is at i = 2^hi - 1 + j
+where hi is the height,
+then the children are at i1 = 2^(hi+1) - 1 + 2j
+and i2 = 2^(hi+1) - 1 + 2j + 1
+
+Deserialization is straightforward
+0
+1 2
+3 4 5 6
+...

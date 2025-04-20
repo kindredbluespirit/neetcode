@@ -1,0 +1,11 @@
+Construct 1sum and 2sum trees
+
+1sum - max sum from root to leaf
+2sum - max sum from leaf to leaf under given root
+
+Can calculate (1sum, left/right) tree using DFS
+or just a 1sum tree is enough
+
+For 2sum, at each node, compare 2sums of children
+to (left 1sum + right 1sum + node value),
+update 2sume of node as such.

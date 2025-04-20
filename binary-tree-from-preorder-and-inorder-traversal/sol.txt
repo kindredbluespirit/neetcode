@@ -1,0 +1,10 @@
+construct a hashmap inorder node
+takes O(n) space and O(n) time to construct
+to retrive positions in O(1) time
+
+Use DFS to construct the tree
+traverse through the preorder list
+
+recurse by constructing left and right end pointers for subtrees
+push the pair into a stack in the DFS with the root
+also takes O(n) space and O(n) time

@@ -1,0 +1,8 @@
+cyclic graph
+edge[i->j] = gas[i] - cost[i]
+
+maintain a starting point s = 0, length l = 0
+go along the cycle, accumulate edge weights, l-> l+1
+at any point, if sum < 0, then s -> s+1
+remove edge[s] from the sum, l -> l-1
+if l = total length while sum >= 0, then return s

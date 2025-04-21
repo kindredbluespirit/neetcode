@@ -1,0 +1,24 @@
+size of array must be a multiple of groupsize
+
+simply sort the array? O(nlogn) time, O(n) space
+Each element can repeat atmost once
+
+maintain a freq map
+using the smallest element in the sorted array,
+construct one group.
+
+traverse groupSize times through the sorted array
+to find the smallest element of the next smallest group.
+
+Continue until found.
+
+-----------
+
+or, in the sorted array
+check freq map of every element
+
+everytime freq goes up before the groupsize is fulfilled,
+it means a new group starts. Count the number of groups. 
+
+Need to maintain amount of each group traversed
+and also if finished traversal or not in O(n) space.

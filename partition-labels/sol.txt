@@ -1,0 +1,15 @@
+traverse along the array
+
+maintain start and end indices for each letter
+using a length 26 array in O(1) space
+
+also maintain another array to push unique letters
+in the order of their start
+
+-----
+
+traverse the unique letters array
+
+for each character, if its start is after the end of
+all its previous letters, add 1 to max num of substrings
+and pop all the previous letters.

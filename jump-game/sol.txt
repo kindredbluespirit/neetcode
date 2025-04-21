@@ -1,0 +1,10 @@
+greedy
+
+maintain a max reachable element
+
+traverse along the array and update the value
+if current max < current index + current num
+
+if you can't go beyond current max, return false
+
+if you reach the end, return true

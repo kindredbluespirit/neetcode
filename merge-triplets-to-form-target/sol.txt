@@ -1,0 +1,16 @@
+Traverse the array
+Check if the numbers are present,
+even if not together
+
+Simultaneously check if these numbers
+exist in triplets with the other two numbers
+being <= the target numbers.
+
+Otherwise, the merge will lose the other numbers.
+
+Example -
+target = [7, 6, 3]
+7 is initially only present as [7, 8, 1]
+Any merge ensures that 6 is lost.
+
+Collect all such triplets and merge to get target.

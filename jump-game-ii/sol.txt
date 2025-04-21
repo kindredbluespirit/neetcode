@@ -1,0 +1,4 @@
+at every step that isn't in the initial coverage,
+increment the number of min steps
+
+the hints use l and r pointers to implement this

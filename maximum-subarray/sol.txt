@@ -1,0 +1,9 @@
+greedy
+
+maintain the max sum
+
+kind of a sliding window
+keep expanding
+if sum <= 0, shrink window to 0 and continue
+
+apparently called kadane's algorithm

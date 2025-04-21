@@ -1,0 +1,11 @@
+left = +1
+right = -1
+* = +1, 0, -1
+
+Maintain two variables, one for parentheses and one for stars
+
+if num_par = 0 and you see a right parenthesis, num_star -= 1
+If end and num_par > 0, consume stars.
+
+If num_par != 0 and num_star = 0, return false
+else return true

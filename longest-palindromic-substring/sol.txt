@@ -1,0 +1,25 @@
+Expand over each index as the center, odd or even length
+O(n) time per index, O(n*n) time in total.
+
+Update the max length at each index.
+
+-----------------
+
+Manacher's algorithm for palindromes.
+
+Insert hashes everywhere to make even palindromes
+centered around indices, just like the odd ones.
+
+Save the palindrome wing length P at every index.
+
+Traverse from left to right.
+Keep track of the rightmost index R reached
+by any palindrome.
+Also keep track of the center C wrt index R.
+
+If current index has already been reached (i.e. i <= R)
+min(R-i, P[mirror]) provides the lower bound to P[i].
+Start from there and keep expanding.
+
+At each timestep, R is pushed to the right, atleast by 1.
+This ensures O(n) time complexity.

@@ -1,0 +1,5 @@
+Same as house robber i, run twice
+
+1. once for 0 -> l-2 (0 may/may-not be included, l-1 isn't)
+2. once for 1 -> l-1 (0 isn't included, l-1 may/may-not be)
+

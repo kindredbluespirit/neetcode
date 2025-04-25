@@ -1,0 +1,6 @@
+1 2 3 4 ... 
+
+d(i) = max(d(i-1), d(i-2) + a[i])
+
+Can be brought down from O(n) space to O(1).
+Just keep track of res, prev1, prev2

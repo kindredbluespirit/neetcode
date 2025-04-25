@@ -1,7 +1,7 @@
 Expand over each index as the center, odd or even length
 O(n) time per index, O(n*n) time in total.
 
-Update the max length at each index.
+Update the max length at each index in O(1) space.
 
 -----------------
 

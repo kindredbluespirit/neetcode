@@ -10,7 +10,8 @@ Manacher's algorithm for palindromes.
 Insert hashes everywhere to make even palindromes
 centered around indices, just like the odd ones.
 
-Save the palindrome wing length P at every index.
+Save the palindrome wing length P at every index
+O(n) space.
 
 Traverse from left to right.
 Keep track of the rightmost index R reached

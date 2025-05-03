@@ -7,4 +7,4 @@ get:
 remove and insert at end
 
 put:
-put at end, if full, remove LRU element
+put at end, if full, remove LRU/oldest element

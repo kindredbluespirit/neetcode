@@ -1,0 +1,27 @@
+Hashmap num -> node O(n)
+Hashmap freq -> freqlist O(n)
+num minfreq O(1)
+num capacity O(1)
+
+Each freq list is a doubly linked list
+
+ops -
+add
+remove
+get
+put
+
+put -
+if element exists, move to higher freq bucket
+    if minfreq bucket is empty, increment by 1
+if not, add to freq 1 bucket
+    if full capacity, remove lru element from minfreq
+    set minfreq to 1
+
+get -
+if element doesn't exist -
+    return null
+else get value
+    increment freq by 1
+    if minfreq bucket is empty
+        increment minfreq by 1

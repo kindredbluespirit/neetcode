@@ -1,0 +1,11 @@
+https://chatgpt.com/share/681654c6-f388-800c-8631-45f9675d3fb2
+
+Order by increasing end times in a list
+Each element in the list is (startTime, endTime, profit)
+
+dynamic programming dp = [(0,0)]
+dp[i] is the (endtime, max profit) for the first i jobs
+
+iterate through the jobs
+    get the index of dp of all jobs ending before job j starts
+    insert (endtime, max(dpj + pj, dp[-1])) at the end of dp
